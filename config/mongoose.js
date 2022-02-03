@@ -1,9 +1,7 @@
 const mongoose = require('mongoose');
 const env = require('./environment');
 
-if(env.name == 'development'){
-    mongoose.connect(env.db);
-} else {
+
     const url = env.db;
     const connectionParams={
         useNewUrlParser: true,
@@ -12,7 +10,7 @@ if(env.name == 'development'){
     }
 
     mongoose.connect(url,connectionParams);
-}
+
 
 
 
