@@ -3,7 +3,8 @@ class ChatEngine{
         this.chatBox = $(`#${chatBoxId}`);
         this.userEmail = userEmail;
 
-        this.socket = io.connect('http://localhost:5000');
+        this.socket = io.connect('https://sc-heroku1.herokuapp.com/');
+        // this.socket = io.connect('http://localhost:5000');
 
         if (this.userEmail){
             this.connectionHandler();
