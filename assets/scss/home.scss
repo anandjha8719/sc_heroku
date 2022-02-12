@@ -14,19 +14,23 @@
             margin: 8px 0;
             list-style: none;
             border: 3px solid rgba(135, 135, 135, 0.381);
-            padding: 8px;
+            padding: 12px;
             border-radius: 8px;
+
+            .post-content {
+                font-size: 1.4rem;
+                margin-bottom: 16px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
 
             .delete-post-button {
                 text-decoration: none;
-                color: rgb(231, 101, 101);
-                margin-right: 8px;
+                color: rgb(4, 90, 0);
+                font-size: large;
+                margin-right: 16px;
             }
 
-            .post-content {
-                margin-bottom: 8px;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            }
+            
             .post-comments {
                 border-top: 2px solid black;
                 padding-top: 8px;
@@ -54,7 +58,7 @@
                     }
                 }
 
-                .post-comments-list {
+                .post-comments-list ul{
                     list-style: none;
                 }
             }

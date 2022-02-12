@@ -1,3 +1,9 @@
 body{
-    background-color: lightblue;
+    background-image: linear-gradient(to right, rgb(171, 210, 238), rgb(68, 79, 81));
+
+    #image {
+        width: 200px;
+        height: auto;
+        padding: 20px;
+    }
 }
